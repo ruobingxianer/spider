@@ -11,6 +11,6 @@ def getHtmlText(url):
         return "exception"
 
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     url = "https://ctext.org/zh"
     print getHtmlText(url)
