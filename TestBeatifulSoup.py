@@ -8,21 +8,21 @@ try:
     r.encoding = r.apparent_encoding
 
     demo = r.text
-    soup = BeautifulSoup(demo,"html.parser")
+    soup = BeautifulSoup(demo, "html.parser")
     # print soup.prettify()
 
-    print soup.title
-    print soup.title.string
+    print(soup.title)
+    print(soup.title.string)
 
-    print soup.a
+    print(soup.a)
 
-    print soup.a.attrs['href']
+    print(soup.a.attrs['href'])
 
     for parent in soup.a.parents:
         if parent is None:
             continue
         else:
-            print parent.name
+            print(parent.name)
 
 except:
-    print "exception"
+    print("exception")
