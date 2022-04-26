@@ -3,7 +3,7 @@ import requests
 
 url = "https://ctext.org/zh"
 try:
-    r = requests.get(url, timeout=30)
+    r = requests.get(url)
     r.raise_for_status()
     r.encoding = r.apparent_encoding
 
