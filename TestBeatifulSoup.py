@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = "https://ctext.org/zh"
+url = "https://ctext.org/zhs"
 try:
     r = requests.get(url)
     r.raise_for_status()

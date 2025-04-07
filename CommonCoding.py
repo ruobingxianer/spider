@@ -17,5 +17,5 @@ def getHtmlText(url):
 
 
 if __name__ == "__main__":
-    url = "https://ctext.org/zh"
+    url = "https://ctext.org/zhs"
     print(getHtmlText(url))

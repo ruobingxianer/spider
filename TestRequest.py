@@ -1,6 +1,6 @@
 import requests
 
-r = requests.get("https://ctext.org")
+r = requests.get("https://ctext.org/zhs")
 
 print (r.status_code)
 
